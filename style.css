@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+body{
+    font-size: 100%;
+    background:linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+
+}
+
+
+
+.cabeçalho{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabeçalho-logo{
+
+    height: 72px;
+}
+.menu{
+    display: flex;
+    gap: 32px;
+   
+}
+
+.menu-item{
+    color: #FFF2E7;
+    font-family: 'Sarala';
+    font-weight: 400px;
+    font-size: 18px;
+
+}
+
+.conteudo{
+    margin-bottom:48px;
+    border-top: 0.4px solid #FFF2E7;/* para fazer a barra do topo */
+}
+.conteudo-principal{
+
+   color: #ECD6C4;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+
+   
+}
+.conteudo-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-escrito .titulo {
+
+    font-family: 'Righteous';
+    font-weight: normal;
+    font-size: 64px;
+    
+}
+
+.conteudo-escrito .subtitulo{
+
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Sarala';
+    color: #ECD6C4;
+}
+
+.botao{
+
+    border-radius: 10px;
+    padding: 10px;
+    width: 180px;
+    height: 67px;
+    background-color: #ECD6C4;
+    border: none;
+    font-weight: 400;
+    font-family: 'Sarala';
+}
+
+.img-bot{
+
+    height: 430px;
+}
+
+.conteudo-secundario{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px
+
+
+}
+
+.conteudo-secundario-titulo{
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    color: #FFF2E7;
+    font-family: 'Righteous';
+    font-weight: normal;
+    margin-bottom: 16px;
+
+}
+
+.conteudo-secundario-paragrafo{
+
+    font-family: 'Sarala';
+    font-weight: normal;
+    font-size: 15px;
+    color: #ECD6C4;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.rodape-imagem{
+    width: 180px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
